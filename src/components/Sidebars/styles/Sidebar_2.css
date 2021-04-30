@@ -1,0 +1,139 @@
+.sidebar2{
+    display: flex;
+    flex-direction: column;
+    padding:10px 0px 0px 0px;;
+    margin: 0;
+    /* max-width: 300px; */
+    position: sticky;
+    min-width: 20%;
+    max-height:100%;
+    overflow-y: auto;
+    top: 0;
+    margin-right: 20px;
+    /* max-height: calc(100vh - 50px); */
+}
+
+#seen {
+    background: purple;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    float:right;
+    display: block;
+}
+.notification{
+    padding: 10px 0px 0px 0px;
+    
+}
+.see-all-notif-button
+{width:90%;
+height:30px;
+background-color: #f3f3f3;
+outline:none;
+border:none;
+border-radius:5px;
+font-family: 'Roboto Slab', serif;
+margin:10px;
+font-weight: 100;
+}
+.notification-heading, .upvote-pujo-heading{
+    font-weight: bold;
+    padding: 10px 5px 10px 17px;
+    background-color: white;
+    border-radius: 4px;
+    filter: drop-shadow(1px 1px 1px rgba(26,26,26,0.25));
+    text-transform: capitalize;
+}
+/* 
+.upvote-pujo-heading{
+    margin-top: 10px;
+} */
+
+.notification-list, .upvote-pujo-list{
+    list-style-type: none;
+    
+    background: white;
+    border-radius: 4px;
+    filter: drop-shadow(1px 1px 1px rgba(26,26,26,0.25));
+    min-height: 100px;
+}
+.notification-list ul, .upvote-pujo-list ul,.trending-list ul{
+    margin-bottom: 0  !important;
+}
+.notification-list::-webkit-scrollbar, .upvote-pujo-list::-webkit-scrollbar{
+    display: none;
+}
+
+.upvote-pujo-list hr{
+    display: none;
+}
+.notification-list-item, .upvote-pujo-list-item{
+    padding: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.notification-list-item:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.upvote-pujo-list-item:hover{
+    background-color: rgba(128, 0, 128, 0.1);
+}
+
+.notification-list-item > p{
+    font-size: small;
+    padding: 0 0 0 0px;
+}
+
+.upvote-pujo-list-item > p{
+    font-size: small;
+    padding: 0 0 0 5px;
+    font-weight: bold;
+    flex-grow: 1;
+    cursor: pointer;
+    margin-top: 13px;
+}
+
+.upvote-pujo-list-item > .itemDp{
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.notification-user{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.upvote-pujo-user{
+    text-transform: capitalize;
+    font-size: 12px;
+    color: gray;
+}
+
+.notification-time{
+    color: gray;
+    font-size: 12px;
+}
+
+.switch-toggle{
+    padding: 10px;
+    text-align: center;
+}
+
+/* scrollbar customization */
+
+.notification-list::-webkit-scrollbar, .upvote-pujo-list::-webkit-scrollbar {
+    width: 10px;
+}
+
+.notification-list::-webkit-scrollbar-thumb, .upvote-pujo-list::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, rgba(128, 0, 128, 0.6));
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 750px){
+    .sidebar2{
+        display: none;
+    }
+}

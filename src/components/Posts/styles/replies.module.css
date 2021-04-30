@@ -1,0 +1,60 @@
+.replyContainer{
+    display: flex;
+    position: relative;
+    width: 97.5%;
+    padding-bottom: 15px !important;
+}
+
+.replyContainer:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.avatar{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom:20px;
+    cursor: pointer;
+}
+
+.replyContainer p{
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+
+.replyLike{
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.replyLikeCount{
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.more{
+    outline: none;
+}
+
+.repliesMoreOptions{
+    font-size: small;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    margin-right: 40px;
+    padding: 2px 3px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    height: fit-content;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.repliesMoreOptions > p{
+    cursor: pointer;
+    margin: 5px 1px;
+    padding: 2px 3px;
+    border-radius: 3px;
+}
+
+.repliesMoreOptions > p:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,119 @@
+.register {
+    margin: 0;
+    background-image: url('./signup-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    padding-top: 5px;
+}
+
+.register-logo{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.head > h3{
+    font-weight: bold;
+    color: purple;
+}
+
+.register__container {
+    max-width: 470px;
+    display :flex;
+    padding: 20px;
+    margin: 10px;
+    /*background-color: #e9ebee;*/
+    background-color: white;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.register__container > h4{
+    font-weight: bold;
+}
+
+.register__container > span{
+    color: purple;
+}
+
+.register__radiocontainer > span{
+    margin: 0 8px;
+}
+
+.form-group > input{
+    padding: 0 5px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.register__gender {
+    color: rgb(144,148, 156);
+    font-size: 16px;
+}
+
+.register__policy {
+    font-size: 11px;
+    line-height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    max-width: 450px;
+    margin-top: 0;
+}
+
+.register__policy span {
+    color: rgb(56, 148, 207);
+    cursor: pointer;
+}
+
+.register-form-last{
+    text-align: right;
+}
+
+.register__register{
+    padding: 5px 10px;
+    background: none;
+    border: 1px solid green;
+    border-radius: 6px;
+    color: green;
+    transition:  all 0.4s;
+}
+
+.register__register:hover{
+    background-color: green;
+    color: white;
+}
+
+.signup-options{
+    text-align: center;
+    color: gray;
+}
+
+.sigin_google_icon{
+    width : 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 750px){
+    .register{
+        background-image: url('./login-bg.png');
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .first-name{
+        margin-bottom: 8px;
+    }
+}

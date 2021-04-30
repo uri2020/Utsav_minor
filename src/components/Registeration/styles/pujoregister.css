@@ -1,0 +1,346 @@
+.pujo-register {
+  min-height: 100vh;
+  background: url("/src/components/images/pujo_background.png");
+  background-position: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pujo_register_label {
+  background: linear-gradient(
+    to top right,
+    rgba(217, 71, 160, 0.35),
+    rgba(37, 134, 253, 0.7)
+  );
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+#pr_form_head_logo {
+  display: flex;
+  justify-content: center;
+  padding: 0.5% 0px 2% 0px;
+  border-bottom: 3px solid #2687fd;
+}
+#pr_form_inside {
+  width: fit-content;
+  margin: auto;
+}
+#pform_logo {
+  width: 68px;
+  padding: 7px 0px;
+  display: block;
+  margin: 0;
+}
+#pform_name {
+  width: fit-content;
+}
+#pr_explore_line {
+  margin: 0;
+  font-weight: 600;
+}
+#pform_logo_name {
+  text-align: left;
+  font-weight: 950;
+  font-size: 40px;
+  margin: 0;
+  letter-spacing: 2px;
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(219, 70, 159, 1),
+    rgba(33, 136, 255, 1)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#pform_main {
+  display: inline;
+}
+#pform_fl_left {
+  float: left;
+  width: 60%;
+}
+#pform_fl_right {
+  float: right;
+  width: 26%;
+  margin-right: 8%;
+}
+#pform_title {
+  text-align: left;
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(219, 70, 159, 1),
+    rgba(33, 136, 255, 1)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.pform_fname {
+  width: 100%;
+  padding: 6px 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: none;
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
+}
+.prform_femail {
+  width: 100%;
+  padding: 6px 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: none;
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
+}
+.pform_fabout {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 6px;
+  resize: none;
+  margin-bottom: 10px;
+  border: none;
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
+}
+.pform_fabout:focus {
+  outline: none;
+}
+.pform_fstate {
+  width: 85%;
+  margin: 6px 0px 6px 9px;
+  border: none;
+  background: transparent;
+}
+#pform_div_fstate {
+  border-radius: 6px;
+  margin-bottom: 10px;
+  width: 45%;
+  float: left;
+  box-shadow: 0px 0px 4.5px rgb(0 0 0 / 25%);
+}
+.pform_fcity {
+  width: 85%;
+  margin: 6px 0px 6px 9px;
+  border: none;
+  background: transparent;
+}
+.pform_fcity:focus,
+.pform_fstate:focus {
+  outline: none;
+}
+#pform_div_fcity {
+  border-radius: 6px;
+  margin-bottom: 10px;
+  width: 45%;
+  float: right;
+  box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+}
+.pform_faddress {
+  width: 100%;
+  padding: 6px 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: none;
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
+}
+.pform_fpin {
+  width: 45%;
+  padding: 6px 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: none;
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
+}
+.pform_fcontact {
+  width: 47%;
+  margin-left: 8%;
+  padding: 6px 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: none;
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
+}
+.pform_fbutton {
+  display: block;
+  margin: auto;
+  border: none;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 6px;
+  width: 50%;
+  font-size: 25px;
+  background: linear-gradient(90deg, #db469f, #2188ff);
+}
+#prform_tool button {
+  background: linear-gradient(-30deg, #db469f, #2188ff);
+  color: white;
+  position: relative;
+  top: -34px;
+  right: -53px;
+  padding: 7px;
+  outline: none;
+}
+#prn_form_register {
+  display: inline;
+}
+#prn_bold {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.49);
+}
+#pr_optional {
+  color: rgba(0, 0, 0, 0.4) !important;
+}
+.prn_register__radiocontainer {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+.prn_form {
+  width: 55%;
+  margin: auto;
+  border: 1px solid rgba(205, 205, 205, 0.5);
+  border-radius: 15px;
+  margin-top: 4%;
+  box-shadow: 0px 0px 16px black;
+  background-color: white;
+}
+#radio_container_left {
+  width: 45%;
+  float: left;
+}
+#radio_container_left div {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.4);
+}
+#radio_container_right {
+  width: 45%;
+  float: right;
+  margin-left: 5%;
+}
+#radio_container_right div {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.4);
+}
+.community-register-form {
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 10px 10px 20px;
+}
+#prn_button_form {
+  width: 100%;
+  height: fit-content;
+  display: inline-block;
+}
+.Error {
+  padding: 10px;
+  background-color: #feeaea;
+  border: 1px solid #fadadb;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+.img-holder {
+  border-radius: 50%;
+  margin: auto;
+  width: 150px;
+  border: 3px;
+  border-radius: 5px;
+  margin-top: 3rem;
+}
+.prn_img-holder {
+  border-radius: 50%;
+  margin: auto;
+  width: 150px;
+  border: 3px;
+  border-radius: 5px;
+  margin-top: 3rem;
+}
+.pr_img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+#input[type="file"] {
+  display: none;
+}
+.image-upload {
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  color: white;
+  border-radius: 10px;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+  .user-registeration {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .prn_form {
+    width: 70% !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .prn_form {
+    width: 85% !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .prn_form {
+    width: 100% !important;
+  }
+  #pform_title {
+    text-align: center !important;
+  }
+  #pform_fl_left {
+    width: 100% !important;
+  }
+  #pform_fl_right {
+    width: 100% !important;
+    margin-right: 0;
+  }
+  .prn_img-holder {
+    margin-top: 0rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .prn_form {
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .prn_form {
+    width: 100% !important;
+    margin-top: 0;
+    border-radius: 0px;
+  }
+  #pform_div_fstate {
+    width: 100% !important;
+  }
+  #pform_div_fcity {
+    width: 100% !important;
+  }
+  .pform_fpin {
+    width: 100% !important;
+  }
+  .pform_fcontact {
+    width: 100% !important;
+    margin: 0 !important;
+    margin-bottom: 10px;
+  }
+}
+
+.input-outline-disable:focus-visible {
+  outline: none;
+  background: #ffffffe5;
+}

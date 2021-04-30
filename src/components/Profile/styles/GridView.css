@@ -1,0 +1,30 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.item > img{
+  width: 100%;
+  max-height: 400px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px){
+  .item > img{
+    max-height: 300px;
+  }
+}
+
+@media only screen and (max-width: 760px){
+  .grid-container{
+    grid-template-columns: 1fr;
+  }
+  .item > img{
+    max-height: 200px;
+  }
+}

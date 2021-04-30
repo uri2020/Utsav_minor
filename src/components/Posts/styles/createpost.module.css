@@ -1,0 +1,86 @@
+.nav{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 10px 20px 3px 20px;
+    display: flex;
+}
+
+.nav > p{
+    flex-grow: 1;
+    padding-left: 40px;
+}
+
+.nav > button{
+    background-color: purple;
+    padding: 0px 20px;
+    color: white;
+    margin-bottom: 7px;
+}
+
+.main{
+    background-color: rgba(0, 0, 0, 0.9);
+    min-height: calc(100vh - 50px);
+    padding: 10px 10px 5px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.userDetails{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-transform: capitalize;
+}
+
+.avatar{
+    margin: 0px 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.input{
+    flex-grow: 1;
+    padding: 5px;
+    padding-top: 15px;
+}
+
+.input > input{
+    background-color: transparent;
+    border: none;
+    width:100%;
+    height: 100%;
+    outline: none;
+    color: white;
+}
+
+.uploadOptions{
+    color: white;
+    padding: 5px;
+}
+
+.uploadOptionsHeader{
+    display: flex;
+}
+
+.iconSmall{
+    margin: 2px 5px;
+}
+
+.uploadOptionsHeader > h6{
+    color: goldenrod;
+    flex-grow: 1;
+}
+
+.uploadOptions > ul{
+    list-style-type: none;
+}
+
+.uploadOptions > ul > li{
+    padding: 7px 10px;
+    border-bottom: 1px solid gray;
+}
+
+.iconBig{
+    margin: 2px 5px;
+}
