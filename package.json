@@ -1,0 +1,65 @@
+{
+  "name": "post",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ashwamegh/react-link-preview": "^0.2.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^8.2.1",
+    "link-preview-js": "^2.1.6",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^17.0.1",
+    "react-fullscreen-image": "0.0.3",
+    "react-image-crop": "^8.6.6",
+    "react-native": "^0.64.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-switch": "^6.0.0",
+    "react-use-scroll-snap": "0.0.1",
+    "react-web-share": "^1.0.18",
+    "react-zoom-pan-pinch": "^1.6.1",
+    "sweetalert": "^2.1.2",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-hashtag": "^2.1.2",
+    "react-tiny-link": "^3.6.1"
+  }
+}
