@@ -1,0 +1,23 @@
+.root{
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.borderRadius10{
+    border-radius: 10px;
+}
+
+.carouselImg{
+    width: 100%;
+    max-width: 600px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.indicators > li{
+    height:.6rem;
+    width:.6rem;
+    border:solid 1px purple;
+    border-radius:50%;
+}
