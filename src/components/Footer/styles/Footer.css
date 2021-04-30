@@ -1,0 +1,35 @@
+footer{
+    background-color: white;
+    padding: 7px 0;
+    width: 100%;
+}
+
+.links > ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.links > ul > li > a{
+    text-decoration: none;
+    color: purple;
+}
+
+.social > a{
+    font-size: 24px;
+}
+
+.newsletter{
+    padding-bottom: 8px;
+ }
+
+.newsletter > p{
+    color: purple;
+    font-weight: bold;
+}
+
+.newsletter > input{
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,91 @@
+
+.notification-list{
+    overflow-y: scroll;
+    
+}
+
+
+.notification-list::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, rgba(128, 0, 128, 0.6));
+    border-radius: 5px;
+}
+
+.full-notification{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding:5px 0;
+}
+.full-notification:hover {
+    
+    background-color:white;
+    border-radius: 5px;
+    
+}
+
+.notification-list-items{
+    padding: 5px;
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+}
+.notif-list-page {
+    width:100%;
+    border-radius: 5px;
+
+}
+
+.profile-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+#notif-page-items {
+    width:100%;
+    border-radius:5px;
+    padding:0px;
+    background-color: white
+}
+/*background-color: white;*/
+.notification-user{
+    
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+
+.notification-time{
+    color: gray;
+    font-size: 12px;
+    float: right;
+}
+.app__notifs {
+    margin: 0 25px;
+    display: flex;
+    max-width:650px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5px 50px 5px;
+    overflow-y: scroll;
+    max-height: 100vh;
+    filter: drop-shadow(1px 1px 1px rgba(26,26,26,0.25));
+}
+.app__notifs::-webkit-scrollbar {
+    display: none;
+}
+/* custom scroll-bar for app_posts or main section */
+
+.app__notifs::-webkit-scrollbar{
+    width: 6px;
+}
+
+.app__notifs::-webkit-scrollbar-thumb{
+    background: linear-gradient(rgba(128, 0, 128, 0.7), rgba(166, 53, 231, 0.5));
+    border-radius: 3px;
+}

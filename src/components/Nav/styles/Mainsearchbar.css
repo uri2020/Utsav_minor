@@ -1,0 +1,112 @@
+
+
+  input::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #f9f9f9;
+    color:black;
+    padding: 10px;
+    top: 50px;
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99;
+  }
+
+  .searchResults{
+    max-height: 300px;
+    overflow: scroll;
+  }
+
+  .searchResults::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: block;
+  }
+
+.closebtn{
+  background-color: white;
+  border: none;
+  float: right;
+  outline: none;
+}
+
+.searchOption{
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.searchOption > span{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 3px 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;
+}
+
+.searchOption > span.active{
+    border-color: goldenrod;
+    background-color: gold;
+}
+
+.CityStateListItem{
+  font-size: small;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+.CityStateListItem:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.userRow{
+  padding: 5px;
+  cursor: pointer;
+}
+
+.recentsearch{
+  font-size: small;
+  cursor: pointer;
+  margin: 0;
+  padding: 5px;
+}
+
+.recentsearch:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.userRow:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
